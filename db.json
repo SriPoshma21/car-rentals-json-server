@@ -1,0 +1,488 @@
+{
+    "cars": [
+      {
+        "id": 1,
+        "make": "Toyota",
+        "model": "Corolla",
+        "year": 2020,
+        "color": "Silver",
+        "mileage": 15000,
+        "available": true,
+        "daily_rate": 7500,
+        "image": "https://imgd.aeplcdn.com/664x374/cw/ec/26588/Toyota-Corolla-Altis-Exterior-92974.jpg?wm=0&q=80"
+      },
+      {
+        "id": 2,
+        "make": "Honda",
+        "model": "Civic",
+        "year": 2019,
+        "color": "Black",
+        "mileage": 20000,
+        "available": false,
+        "daily_rate": 5500,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Honda_Civic_e-HEV_Sport_%28XI%29_%E2%80%93_f_30062024.jpg"
+      },
+      {
+        "id": 3,
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 2021,
+        "color": "Red",
+        "mileage": 5000,
+        "available": true,
+        "daily_rate": 12000,
+        "image": "https://www.ford.com/is/image/content/dam/na/ford/en_us/images/mustang/2025/dm/_S5A3247_V4_ST.tif?croppathe=21x9&wid=1440&fmt=webp"
+      },
+      {
+        "id": 4,
+        "make": "Chevrolet",
+        "model": "Camaro",
+        "year": 2022,
+        "color": "Yellow",
+        "mileage": 3000,
+        "available": true,
+        "daily_rate": 13000,
+        "image": "https://www.fridaynightcars.com/cdn/shop/articles/b9d54e79ea97f4ecb22afa4941f78789x.webp?v=1738655285&width=1100"
+      },
+      {
+        "id": 5,
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 2021,
+        "color": "Blue",
+        "mileage": 12000,
+        "available": false,
+        "daily_rate": 7000,
+        "image": "https://di-uploads-pod27.dealerinspire.com/newtonnissansouth/uploads/2020/11/2021-Nissan-Altima-Model-Left.jpg"
+      },
+      {
+        "id": 6,
+        "make": "BMW",
+        "model": "X5",
+        "year": 2020,
+        "color": "White",
+        "mileage": 18000,
+        "available": true,
+        "daily_rate": 15000,
+        "image": "https://stimg.cardekho.com/images/carexteriorimages/930x620/BMW/X5-2023/10452/1688992642182/front-left-side-47.jpg"
+      },
+      {
+        "id": 7,
+        "make": "Audi",
+        "model": "A4",
+        "year": 2021,
+        "color": "Gray",
+        "mileage": 10000,
+        "available": true,
+        "daily_rate": 11000,
+        "image": "https://imgd.aeplcdn.com/1920x1080/n/cw/ec/51909/a4-exterior-right-front-three-quarter-2.jpeg?q=80&q=80"
+      },
+      {
+        "id": 8,
+        "make": "Hyundai",
+        "model": "Elantra",
+        "year": 2022,
+        "color": "Red",
+        "mileage": 8000,
+        "available": false,
+        "daily_rate": 5500,
+        "image": "https://imgd.aeplcdn.com/1920x1080/n/cw/ec/41138/elantra-exterior-right-front-three-quarter.jpeg?q=80&q=80"
+      },
+      {
+        "id": 9,
+        "make": "Kia",
+        "model": "Sorento",
+        "year": 2021,
+        "color": "Black",
+        "mileage": 15000,
+        "available": true,
+        "daily_rate": 8000,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Kia_Sorento_Hybrid_EX_%28IV%29_%E2%80%93_f_02112024.jpg/800px-Kia_Sorento_Hybrid_EX_%28IV%29_%E2%80%93_f_02112024.jpg"
+      },
+      {
+        "id": 10,
+        "make": "Tesla",
+        "model": "Model 3",
+        "year": 2023,
+        "color": "White",
+        "mileage": 2000,
+        "available": true,
+        "daily_rate": 9500,
+        "image": "https://imgd.aeplcdn.com/1056x594/n/lnk9cva_1595893.jpg?q=80"
+      },
+      {
+        "id": 11,
+        "make": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2022,
+        "color": "Silver",
+        "mileage": 7000,
+        "available": false,
+        "daily_rate": 15000,
+        "image": "https://vehicle-images.dealerinspire.com/eef8-11001118/W1KAF4GB5RR201991/52ad50b10a5e8ea5fed375933dd75bad.png"
+      },
+      {
+        "id": 12,
+        "make": "Volkswagen",
+        "model": "Jetta",
+        "year": 2021,
+        "color": "Blue",
+        "mileage": 14000,
+        "available": true,
+        "daily_rate": 9500,
+        "image": "https://imgd.aeplcdn.com/642x336/n/cw/ec/144689/taigun-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80"
+      },
+      {
+        "id": 13,
+        "make": "Subaru",
+        "model": "Outback",
+        "year": 2020,
+        "color": "Green",
+        "mileage": 22000,
+        "available": true,
+        "daily_rate": 8500,
+        "image": "https://www.thedrive.com/wp-content/uploads/images-by-url-td/content/2021/04/2020_Outback_3.jpg?quality=85"
+      },
+      {
+        "id": 14,
+        "make": "Mazda",
+        "model": "CX-5",
+        "year": 2021,
+        "color": "Red",
+        "mileage": 11000,
+        "available": false,
+        "daily_rate": 8200,
+        "image": "https://i.ytimg.com/vi/COrkF3SIPV0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDkCklEm69u4plw_aQ9g8KbOG2cAQ"
+      },
+      {
+        "id": 15,
+        "make": "Jeep",
+        "model": "Wrangler",
+        "year": 2022,
+        "color": "Black",
+        "mileage": 9000,
+        "available": true,
+        "daily_rate": 7000,
+        "image": "https://imgd.aeplcdn.com/1920x1080/n/cw/ec/174975/wrangler-facelift-exterior-right-front-three-quarter.jpeg?isig=0&q=80&q=80"
+      },
+      {
+        "id": 16,
+        "make": "Lexus",
+        "model": "RX 350",
+        "year": 2021,
+        "color": "White",
+        "mileage": 13000,
+        "available": true,
+        "daily_rate": 9500,
+        "image": "https://di-uploads-pod29.dealerinspire.com/lexusdesanjuan/uploads/2020/10/Platinum-Lexus-RX-350.jpg"
+      },
+      {
+        "id": 17,
+        "make": "Porsche",
+        "model": "Cayenne",
+        "year": 2023,
+        "color": "Gray",
+        "mileage": 4000,
+        "available": false,
+        "daily_rate": 8500,
+        "image": "https://imgd.aeplcdn.com/1920x1080/n/cw/ec/32951/cayenne-exterior-left-front-three-quarter.jpeg?q=80&q=80"
+      },
+      {
+        "id": 18,
+        "make": "Volvo",
+        "model": "XC60",
+        "year": 2022,
+        "color": "Blue",
+        "mileage": 6000,
+        "available": true,
+        "daily_rate": 7000,
+        "image": "https://www.volvocars.com/images/cs/v3/assets/blt0feaa88e629251fc/bltced6ba4a54072c0f/669014b70bacf143512a990e/xc60-fuel-gallery-1-4x3.jpg?branch=prod_alias&auto=avif&quality=85&format=webp&iar=0&w=3840&imdensity=1"
+      },
+      {
+        "id": 19,
+        "make": "Toyota",
+        "model": "Toyota Rover",
+        "year": 2021,
+        "color": "Black",
+        "mileage": 17000,
+        "available": true,
+        "daily_rate": 6000,
+        "image": "https://global.toyota/pages/news/images/2024/04/18/1330/003.jpg"
+      },
+      {
+        "id": 20,
+        "make": "Fiat",
+        "model": "500",
+        "year": 2020,
+        "color": "Yellow",
+        "mileage": 25000,
+        "available": false,
+        "daily_rate": 4500,
+        "image": "https://www.edmunds.com/assets/m/cs/blt679eb77d938637d3/674f4d8ee60191482bc40912/2024-fiat-500e-f34.jpg"
+      }
+    ],
+    "customers": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "phone": "123-456-7890"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "phone": "987-654-3210"
+      },
+      {
+        "id": 3,
+        "name": "Alice Johnson",
+        "email": "alice.johnson@example.com",
+        "phone": "987654321"
+      },
+      {
+        "id": 4,
+        "name": "Bob Brown",
+        "email": "bob.brown@example.com",
+        "phone": "444-555-6669"
+      },
+      {
+        "id": 5,
+        "name": "Charlie Davis",
+        "email": "charlie.davis@example.com",
+        "phone": "777-888-9999"
+      },
+      {
+        "id": 6,
+        "name": "Diana Evans",
+        "email": "diana.evans@example.com",
+        "phone": "222-333-4444"
+      },
+      {
+        "id": 7,
+        "name": "Ethan Harris",
+        "email": "ethan.harris@example.com",
+        "phone": "111-222-3333"
+      },
+      {
+        "id": 8,
+        "name": "Fiona Clark",
+        "email": "fiona.clark@example.com",
+        "phone": "999-888-7777"
+      },
+      {
+        "id": 9,
+        "name": "George Lewis",
+        "email": "george.lewis@example.com",
+        "phone": "666-555-4444"
+      },
+      {
+        "id": 10,
+        "name": "Hannah Walker",
+        "email": "hannah.walker@example.com",
+        "phone": "333-444-5555"
+      },
+      {
+        "id": 11,
+        "name": "Isaac Moore",
+        "email": "isaac.moore@example.com",
+        "phone": "888-777-6666"
+      },
+      {
+        "id": 12,
+        "name": "Julia Taylor",
+        "email": "julia.taylor@example.com",
+        "phone": "777-666-5555"
+      },
+      {
+        "id": 13,
+        "name": "Kevin Anderson",
+        "email": "kevin.anderson@example.com",
+        "phone": "666-555-4444"
+      },
+      {
+        "id": 14,
+        "name": "Laura Thomas",
+        "email": "laura.thomas@example.com",
+        "phone": "555-444-3333"
+      },
+      {
+        "id": 15,
+        "name": "Michael Jackson",
+        "email": "michael.jackson@example.com",
+        "phone": "444-333-2222"
+      },
+      {
+        "id": 16,
+        "name": "Nancy White",
+        "email": "nancy.white@example.com",
+        "phone": "333-222-1111"
+      },
+      {
+        "id": 17,
+        "name": "Oliver Harris",
+        "email": "oliver.harris@example.com",
+        "phone": "222-111-0000"
+      },
+      {
+        "id": 18,
+        "name": "Patricia Martin",
+        "email": "patricia.martin@example.com",
+        "phone": "111-000-9999"
+      },
+      {
+        "id": 19,
+        "name": "Quincy Adams",
+        "email": "quincy.adams@example.com",
+        "phone": "000-999-8888"
+      },
+      {
+        "id": 20,
+        "name": "Rachel Green",
+        "email": "rachel.green@example.com",
+        "phone": "999-888-7777"
+      }
+    ],
+    "rentals": [
+      {
+        "id": 1,
+        "car_id": 2,
+        "customer_id": 1,
+        "rental_date": "2023-10-01",
+        "return_date": "2023-10-05"
+      },
+      {
+        "id": 2,
+        "car_id": 3,
+        "customer_id": 2,
+        "rental_date": "2023-10-10",
+        "return_date": "2023-10-15"
+      },
+      {
+        "id": 3,
+        "car_id": 5,
+        "customer_id": 3,
+        "rental_date": "2023-09-20",
+        "return_date": "2023-09-25"
+      },
+      {
+        "id": 4,
+        "car_id": 7,
+        "customer_id": 4,
+        "rental_date": "2023-10-03",
+        "return_date": "2023-10-07"
+      },
+      {
+        "id": 5,
+        "car_id": 10,
+        "customer_id": 5,
+        "rental_date": "2023-09-15",
+        "return_date": "2023-09-20"
+      },
+      {
+        "id": 6,
+        "car_id": 14,
+        "customer_id": 6,
+        "rental_date": "2023-10-12",
+        "return_date": "2023-10-17"
+      },
+      {
+        "id": 7,
+        "car_id": 17,
+        "customer_id": 7,
+        "rental_date": "2023-09-25",
+        "return_date": "2023-09-30"
+      },
+      {
+        "id": 8,
+        "car_id": 20,
+        "customer_id": 8,
+        "rental_date": "2023-10-05",
+        "return_date": "2023-10-10"
+      },
+      {
+        "id": 9,
+        "car_id": 11,
+        "customer_id": 9,
+        "rental_date": "2023-09-28",
+        "return_date": "2023-10-03"
+      },
+      {
+        "id": 10,
+        "car_id": 19,
+        "customer_id": 10,
+        "rental_date": "2023-10-08",
+        "return_date": "2023-10-13"
+      },
+      {
+        "id": 11,
+        "car_id": 1,
+        "customer_id": 11,
+        "rental_date": "2023-10-18",
+        "return_date": "2023-10-23"
+      },
+      {
+        "id": 12,
+        "car_id": 4,
+        "customer_id": 12,
+        "rental_date": "2023-10-20",
+        "return_date": "2023-10-25"
+      },
+      {
+        "id": 13,
+        "car_id": 6,
+        "customer_id": 13,
+        "rental_date": "2023-10-22",
+        "return_date": "2023-10-27"
+      },
+      {
+        "id": 14,
+        "car_id": 9,
+        "customer_id": 14,
+        "rental_date": "2023-10-24",
+        "return_date": "2023-10-29"
+      },
+      {
+        "id": 15,
+        "car_id": 12,
+        "customer_id": 15,
+        "rental_date": "2023-10-26",
+        "return_date": "2023-10-31"
+      },
+      {
+        "id": 16,
+        "car_id": 15,
+        "customer_id": 16,
+        "rental_date": "2023-10-28",
+        "return_date": "2023-11-02"
+      },
+      {
+        "id": 17,
+        "car_id": 18,
+        "customer_id": 17,
+        "rental_date": "2023-10-30",
+        "return_date": "2023-11-04"
+      },
+      {
+        "id": 18,
+        "car_id": 16,
+        "customer_id": 18,
+        "rental_date": "2023-11-01",
+        "return_date": "2023-11-06"
+      },
+      {
+        "id": 19,
+        "car_id": 8,
+        "customer_id": 19,
+        "rental_date": "2023-11-03",
+        "return_date": "2023-11-08"
+      },
+      {
+        "id": 20,
+        "car_id": 13,
+        "customer_id": 20,
+        "rental_date": "2023-11-05",
+        "return_date": "2023-11-10"
+      }
+    ]
+  }
