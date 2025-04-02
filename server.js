@@ -1,6 +1,6 @@
 const jsonServer = require("json-server");
 const express = require("express");
-const stripe = require("stripe")("sk_test_51R9LK6PV1vZmFxw33cLa8OEfQgBCueX2Q9IxncYQVCjKQDfZBe2GbWnQvHiZ1NXTMzq4kK22crqfWSMSOQPCFfnh00J3eGFCIy"); 
+const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY); 
 const cors = require("cors");
 const dotenv = require("dotenv");
 
