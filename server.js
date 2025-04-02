@@ -17,6 +17,9 @@ server.use(cors());
 server.use(middleware);
 server.use("/api", router);
 
+server.get('/' ,(req , res)=>{
+    res.send('this is root page')
+})
 // Payment Route
 server.post("/api/create-payment-intent", async (req, res) => {
     try {
@@ -34,5 +37,7 @@ server.post("/api/create-payment-intent", async (req, res) => {
         res.status(500).send({ error: error.message });
     }
 });
+
+
 
 server.listen(port, () => console.log(`Server started on port ${port}`));
