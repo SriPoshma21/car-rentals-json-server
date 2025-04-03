@@ -17,6 +17,7 @@
     "dotenv": "^16.4.7",
     "express": "^5.1.0",
     "json-server": "^0.17.4",
+    "nodemon": "^3.1.9",
     "stripe": "^18.0.0"
   }
 }
